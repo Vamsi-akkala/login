@@ -2,9 +2,9 @@ Description = login Service
 
 [Service]
 
-Environment=USERS_API_ADDRESS=http://user_endpoint:8080
+Environment=USERS_API_ADDRESS=http://172.31.20.90:8080
 Environment=AUTH_API_PORT=8080
-ExecStart=/home/ubuntu/login/login
+ExecStart=/home/ubuntu/shell-scripting/todo-app/login/login
 SyslogIdentifier=login
 
 [Install]
